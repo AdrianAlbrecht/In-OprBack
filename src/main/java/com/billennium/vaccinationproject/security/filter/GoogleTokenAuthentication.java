@@ -52,7 +52,7 @@ public class GoogleTokenAuthentication extends AbstractAuthenticationProcessingF
         super("/**");
         this.userRepository = userRepository;
         this.authenticationManager = authenticationManager;
-        clientId = "934723318946-39ovmmf3lmdgishs5jsp4ngu9pf4sgik.apps.googleusercontent.com";
+        clientId = "615859748148-118apjn6qmlsn6e32asjhh1ico052ei0.apps.googleusercontent.com";
     }
 
     @Synchronized
