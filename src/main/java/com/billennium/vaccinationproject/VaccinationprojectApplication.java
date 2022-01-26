@@ -28,7 +28,7 @@ public class VaccinationprojectApplication {
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setAllowCredentials(true);
-		corsConfiguration.setAllowedOrigins(Arrays.asList("https://backend-aa-u2cosbso4a-lm.a.run.app"));
+		corsConfiguration.setAllowedOrigins(Arrays.asList("https://regal-crowbar-339318.appspot.com"));
 		corsConfiguration.setAllowedHeaders(Arrays.asList("*"));
 		corsConfiguration.setExposedHeaders(Arrays.asList("*"));
 		corsConfiguration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
